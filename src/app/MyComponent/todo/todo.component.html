@@ -1,0 +1,16 @@
+<app-add-todo (sumbit)="addTodo($event)"></app-add-todo>
+<div *ngFor="let todo of todo">
+    <ul>
+        <li><input type="checkbox" name="" [(ngModel)] = "todo.active"  id="" class="checkBox"  (click)="toggleCheckBox(todo , $event)">
+            <some-element [ngClass]="{'strike': todo.active}">
+                <h1> {{todo.title}}</h1>
+            </some-element>
+            <span class="delete material-icons md-36" (click)="onClick(todo)">
+                delete
+                </span>
+        </li>
+    </ul>
+</div>
+
+
+

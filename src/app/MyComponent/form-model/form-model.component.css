@@ -1,0 +1,29 @@
+
+
+.container-todo{
+    background-color: burlywood;
+    width: 555px;
+    font-size: 40px;
+    
+
+}
+
+
+.container-todo li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.todo-list li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.add-task{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

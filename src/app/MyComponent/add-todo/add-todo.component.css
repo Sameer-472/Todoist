@@ -1,0 +1,32 @@
+/* body{
+    background-color: aquamarine    ;
+} */
+
+
+.add-task{
+    width: 35rem;
+    /* margin-left: 20rem; */
+  /* justify-content: center; */
+ }
+
+.mb-3{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+
+.form-control{
+    height: 30px;
+    /* margin-top: 20px; */
+}
+
+.btn{
+    font-size: 15px;
+    margin-bottom: 55px;
+    margin-right: -30rem;
+}
+
+.btn:hover{
+    background-color: green;
+}

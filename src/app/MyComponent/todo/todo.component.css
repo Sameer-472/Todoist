@@ -1,0 +1,62 @@
+#accordionExample{
+    width: 35rem;
+    margin-left: 20rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+*{
+    /* background-color: green; */
+}
+
+body{
+    background-color: blue;
+}
+
+.strike{
+    text-decoration: line-through 3px red;
+    /* color: red; */
+}
+
+ul{
+    /* background-color: lawngreen; */
+    /* margin-left: 20rem; */
+    transition: all 5s linear;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    font-family: cursive;
+    /* background-color: lavender; */
+}
+
+.checkBox{
+    margin: 10px;
+    transform: scale(2);
+}
+
+li {
+    width: inherit;
+    color: black;
+}
+
+.delete{
+    /* margin-right: 30rem; */
+    padding: 5px;
+    /* color: red; */
+}
+
+.delete:hover {
+    cursor: pointer;
+    color: rgb(230, 68, 68);
+    /* font-size: 5px; */
+}
+
+.delete:active{
+    font-size: 30px;
+}
+
+
+
+
